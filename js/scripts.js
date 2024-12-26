@@ -32,3 +32,8 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+function showImage(src) {
+    document.getElementById('modalImage').src = src;
+}
+
